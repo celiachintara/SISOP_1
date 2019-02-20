@@ -28,4 +28,15 @@ jika aturan cron tab telah terpenuhi, maka foto-foto pada folder nature akan mun
 
 
 NOMOR 3
-A.  (jawaban 3a)
+A.  ![nomor3a_bash](https://user-images.githubusercontent.com/36990542/53087761-79d6b400-353a-11e9-82af-54be0a36fcf3.png)
+
+
+cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
+
+tr -dc 'a-zA-Z0-9' -> menghapus karakter selain syarat yang ada didalam single quote ('...').
+
+fold -w 12 -> terdiri dari 12 karakter.
+
+head -n 1 -> mengambil baris pertama.
+
+echo "$PASS" >> "password1.txt" -> mencetak isi variabel PASS , kemudian disimpan dalam file bernama password1.txt, tanda ">>" artinya setiap kali melakukan bash script tersebut, password random baru akan ditambahkan diakhir file tersebut.
