@@ -45,7 +45,11 @@ jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada f
 
 NOMOR 2
 
-(penjelasan nomor 2)
+![nomor2a_bash](https://user-images.githubusercontent.com/36990542/53113603-9263c000-3574-11e9-83ae-690112122ef1.png)
+
+
+
+
 
 NOMOR 3
 
