@@ -28,7 +28,9 @@ jika aturan cron tab telah terpenuhi, maka foto-foto pada folder nature akan mun
 
 
 NOMOR 3
-A.  ![nomor3a_bash](https://user-images.githubusercontent.com/36990542/53087761-79d6b400-353a-11e9-82af-54be0a36fcf3.png)
+
+A.
+![nomor3a_bash](https://user-images.githubusercontent.com/36990542/53087761-79d6b400-353a-11e9-82af-54be0a36fcf3.png)
 
 
 cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
