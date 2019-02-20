@@ -26,11 +26,26 @@ let no++ -> meng-increment nilai variabel no.
 done -> penutup iterasi for.
 
 sesuai permintaan di soal, aturan crontab yang digunakan adalah sebagai berikut :
-(screenshot aturan cron tab)
-(penjelasan aturan cron tab)
 
-jika aturan cron tab telah terpenuhi, maka foto-foto pada folder nature akan muncul pada folder dimana soal1.sh disimpan.
+![nomor1_cron](https://user-images.githubusercontent.com/36990542/53089637-b527b180-353f-11e9-94df-d682e82be0bd.png)
 
+
+14 pertama menunjukkan menit ke-14.
+
+14 kedua menunjukkan jam ke-14.
+
+14 ketiga menunjukkan tanggal 14.
+
+2 menunjukkan bulan 2 yaitu februari.
+
+5 menunjukkan hari jumat.
+
+jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada folder dimana soal1.sh disimpan.
+
+
+NOMOR 2
+
+(penjelasan nomor 2)
 
 NOMOR 3
 
@@ -48,3 +63,40 @@ fold -w 12 -> terdiri dari 12 karakter.
 head -n 1 -> mengambil baris pertama.
 
 echo "$PASS" >> "password1.txt" -> mencetak isi variabel PASS , kemudian disimpan dalam file bernama password1.txt, tanda ">>" artinya setiap kali melakukan bash script tersebut, password random baru akan ditambahkan diakhir file tersebut.
+
+
+![nomor3_bash](https://user-images.githubusercontent.com/36990542/53090255-6713ad80-3541-11e9-99c8-832cde3d647a.png)
+
+B dan C
+
+number=0 -> variabel bernama number dengan nilai 0, digunakan untuk menentukan nilai variable suffix.
+
+suffix=1 -> variable bernama suffix dengan nilai 1, nantinya digunakana untuk penamaan file .txt nya.
+
+while test -e "password$suffix.txt" -> mengecek selama file dengan nama tersebut ada, maka perintah didalamnya dijalankan.
+
+do ((++number)) -> meng-increment nilai variable number.
+
+suffix="$( printf -- '%d' "$number")" -> mengganti nilai suffix dengan nilai number (yang dapat dipastikan bahwa file dengan nama "password$number.txt" belum ada).
+
+done -> penutup iterasi while.
+
+cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
+
+tr -dc 'a-zA-Z0-9' -> menghapus karakter selain syarat yang ada didalam single quote ('...').
+
+fold -w 12 -> terdiri dari 12 karakter.
+
+head -n 1 -> mengambil baris pertama.
+
+echo "$PASS" >> "password$suffix.txt" -> mencetak isi variabel PASS , kemudian disimpan dalam file bernama "password$suffix.txt".
+
+
+D. cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
+
+
+NOMOR 4
+(penjelasan nomor 4)
+
+
+NOMOR 5
