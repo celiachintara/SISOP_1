@@ -26,7 +26,7 @@ done -> penutup iterasi for.
 
 sesuai permintaan di soal, aturan crontab yang digunakan adalah sebagai berikut :
 
-![nomer1_crontab](https://user-images.githubusercontent.com/36990542/53146725-e5229380-35d7-11e9-80a3-bbdee8278ce5.jpg)
+![nomer1_crontab](https://user-images.githubusercontent.com/36990542/53197276-6fa4da80-364c-11e9-946e-44178f4e70de.jpg)
 
 14 pertama menunjukkan menit ke-14.
 
@@ -36,7 +36,9 @@ sesuai permintaan di soal, aturan crontab yang digunakan adalah sebagai berikut 
 
 2 menunjukkan bulan 2 yaitu februari.
 
-5 menunjukkan hari jumat.
+* menunjukkan hari apa saja.
+
+untuk crontab yang kedua menunjukkan bebas pada menit berapa saja, jam berapa saja, tanggal berapa saja, bulan februari, dan hari ke-5 yaitu hari Jumat.
 
 jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada home.
 
@@ -159,7 +161,8 @@ ada tambahan >> /home/celiachintara/SISOP/prak1/soal5.log , ini akan membuat seb
 
 D.
 
-![nomer5d](https://user-images.githubusercontent.com/36990542/53152223-9250d800-35e7-11e9-99a5-aae404931eec.jpg)
+![nomer5d](https://user-images.githubusercontent.com/36990542/53197367-a24ed300-364c-11e9-89e4-e0d4e5898689.jpg)
+
 
 2-30/6 artinya mulai menit ke-2 sampai menit ke-30 setiap 6 menit sekali.
 * kedua sampai kelima artinya bebas di semua jam, tanggal, bulan, dan hari.
