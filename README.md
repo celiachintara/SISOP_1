@@ -42,6 +42,9 @@ sesuai permintaan di soal, aturan crontab yang digunakan adalah sebagai berikut 
 
 jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada folder dimana soal1.sh disimpan.
 
+![nomor1_foto](https://user-images.githubusercontent.com/36990542/53142066-21002d80-35c5-11e9-9811-bdf91e1bf8a9.png)
+
+
 
 NOMOR 2
 
@@ -104,3 +107,27 @@ NOMOR 4
 
 
 NOMOR 5
+
+A.
+
+![nomor5a_bash](https://user-images.githubusercontent.com/36990542/53142151-789e9900-35c5-11e9-85e4-00c33e3c81e1.png)
+
+mencetak log yang mengandung kata "cron" atau "CRON" dan tidak mencetak log yang mengandung kata "sudo".
+
+![nomor5a](https://user-images.githubusercontent.com/36990542/53142215-adaaeb80-35c5-11e9-9358-da8b9d52a92a.png)
+
+![nomor5a 1](https://user-images.githubusercontent.com/36990542/53142255-d0d59b00-35c5-11e9-956d-42e108c44128.png)
+
+B.
+
+![nomor5b_bash](https://user-images.githubusercontent.com/36990542/53143853-63793880-35cc-11e9-835c-94bf46af33d4.png)
+
+ada tambahan && (NF<13) yang membatasi bawah jumlah fieldnya harus kurang dari 13 yang dapat ditampilkan.
+
+![nomor5b](https://user-images.githubusercontent.com/36990542/53143888-902d5000-35cc-11e9-96c8-06d728d7f8b8.png)
+
+
+C.
+
+
+
