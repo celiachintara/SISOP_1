@@ -99,7 +99,9 @@ head -n 1 -> mengambil baris pertama.
 echo "$PASS" >> "password$suffix.txt" -> mencetak isi variabel PASS , kemudian disimpan dalam file bernama "password$suffix.txt".
 
 
-D. cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
+D. 
+
+cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
 
 
 NOMOR 4
@@ -129,5 +131,7 @@ ada tambahan && (NF<13) yang membatasi bawah jumlah fieldnya harus kurang dari 1
 
 C.
 
+![nomor5c_bash](https://user-images.githubusercontent.com/36990542/53146159-b99ea980-35d5-11e9-9ea9-caf6cb8f07a0.png)
 
+ada tambahan >> /home/celiachintara/SISOP/prak1/nomer5.log
 
