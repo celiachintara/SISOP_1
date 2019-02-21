@@ -1,0 +1,24 @@
+Feb 21 00:07:16 celiachintara-VirtualBox anacron[19542]: Job `cron.daily' terminated
+Feb 21 00:07:16 celiachintara-VirtualBox anacron[19542]: Normal exit (1 job run)
+Feb 21 10:16:09 celiachintara-VirtualBox systemd[1]: Started Trigger anacron every hour.
+Feb 21 10:16:09 celiachintara-VirtualBox cron[524]: (CRON) INFO (pidfile fd = 3)
+Feb 21 10:16:09 celiachintara-VirtualBox cron[524]: (CRON) INFO (Running @reboot jobs)
+Feb 21 10:38:05 celiachintara-VirtualBox crontab[1772]: (celiachintara) BEGIN EDIT (celiachintara)
+Feb 21 10:38:19 celiachintara-VirtualBox crontab[1772]: (celiachintara) REPLACE (celiachintara)
+Feb 21 10:38:19 celiachintara-VirtualBox crontab[1772]: (celiachintara) END EDIT (celiachintara)
+Feb 21 10:39:01 celiachintara-VirtualBox cron[524]: (celiachintara) RELOAD (crontabs/celiachintara)
+Feb 21 10:39:01 celiachintara-VirtualBox CRON[1787]: (celiachintara) CMD (/bin/bash /home/celiachintara/SISOP/prak1/nomer1.sh)
+Feb 21 10:39:24 celiachintara-VirtualBox crontab[2187]: (celiachintara) BEGIN EDIT (celiachintara)
+Feb 21 10:39:34 celiachintara-VirtualBox crontab[2187]: (celiachintara) REPLACE (celiachintara)
+Feb 21 10:39:34 celiachintara-VirtualBox crontab[2187]: (celiachintara) END EDIT (celiachintara)
+Feb 21 10:40:01 celiachintara-VirtualBox cron[524]: (celiachintara) RELOAD (crontabs/celiachintara)
+Feb 21 12:09:52 celiachintara-VirtualBox crontab[2432]: (celiachintara) BEGIN EDIT (celiachintara)
+Feb 21 12:36:35 celiachintara-VirtualBox crontab[2578]: (celiachintara) BEGIN EDIT (celiachintara)
+Feb 21 12:36:42 celiachintara-VirtualBox crontab[2578]: (celiachintara) REPLACE (celiachintara)
+Feb 21 12:36:42 celiachintara-VirtualBox crontab[2578]: (celiachintara) END EDIT (celiachintara)
+Feb 21 12:37:01 celiachintara-VirtualBox cron[524]: (celiachintara) RELOAD (crontabs/celiachintara)
+Feb 21 12:45:21 celiachintara-VirtualBox crontab[2627]: (celiachintara) BEGIN EDIT (celiachintara)
+Feb 21 12:49:37 celiachintara-VirtualBox crontab[2627]: (celiachintara) END EDIT (celiachintara)
+Feb 21 13:01:08 celiachintara-VirtualBox systemd[1]: Started Run anacron jobs.
+Feb 21 13:01:08 celiachintara-VirtualBox anacron[2684]: Anacron 2.3 started on 2019-02-21
+Feb 21 13:01:08 celiachintara-VirtualBox anacron[2684]: Normal exit (0 jobs run)
