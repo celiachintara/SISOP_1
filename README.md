@@ -46,7 +46,9 @@ jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada h
 
 NOMOR 2
 
-![nomer2a](https://user-images.githubusercontent.com/36990542/53147079-0c2d9500-35d9-11e9-92f6-95d9ef6ddbdb.jpg)
+![nomer2a_bash](https://user-images.githubusercontent.com/36990542/53151933-e4ddc480-35e6-11e9-8c9e-c22cf388104b.jpg)
+
+![nomer2a](https://user-images.githubusercontent.com/36990542/53151971-f4f5a400-35e6-11e9-837d-10acbab212d7.jpg)
 
 
 
