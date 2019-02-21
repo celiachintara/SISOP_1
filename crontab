@@ -1,1 +1,7 @@
+14 14 14 2 * /bin/bash /home/celiachintara/SISOP/prak1/soal1.sh
+0 0 * 2 5 /bin/bash /home/celiachintara/SISOP/prak1/soal1.sh
+0 * * * * /bin/bash /home/celiachintara/SISOP/prak1/soal4.sh
+2-30/6 * * * * /bin/bash /home/celiachintara/SISOP/prak1/soal5.sh
+
+
 
