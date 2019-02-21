@@ -48,9 +48,7 @@ jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada h
 
 NOMOR 2
 
-![nomer2a_bash](https://user-images.githubusercontent.com/36990542/53151933-e4ddc480-35e6-11e9-8c9e-c22cf388104b.jpg)
-
-![nomer2a](https://user-images.githubusercontent.com/36990542/53151971-f4f5a400-35e6-11e9-837d-10acbab212d7.jpg)
+(((( MASIH KOSONG YA ))))
 
 
 
@@ -121,7 +119,7 @@ cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
 
 
 NOMOR 4
-(penjelasan nomor 4)
+(((( MASIH KOSONG YA ))))
 
 
 NOMOR 5
