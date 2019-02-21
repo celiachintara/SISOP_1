@@ -157,3 +157,9 @@ ada tambahan >> /home/celiachintara/SISOP/prak1/soal5.log , ini akan membuat seb
 ![nomer5c_log](https://user-images.githubusercontent.com/36990542/53151327-8106cc00-35e5-11e9-8f8f-644be5d11993.jpg)
 
 
+D.
+
+![nomer5d](https://user-images.githubusercontent.com/36990542/53152223-9250d800-35e7-11e9-99a5-aae404931eec.jpg)
+
+2-30/6 artinya mulai menit ke-2 sampai menit ke-30 setiap 6 menit sekali.
+* kedua sampai kelima artinya bebas di semua jam, tanggal, bulan, dan hari.
