@@ -157,6 +157,9 @@ Untuk dekripsi, kita akan mengubah lagi batas bawah huruf kecil dari desimal ke 
 
 kemudian hasil dekripsi diatas akan disimpan ke dalam sebuah file .txt dengan format penamaan menggunakan waktu dan tanggal yang kita peroleh dari script diatas serta ditambahkan kata -dekripsi sebagai pembedanya.
 
+![nomer4_cron](https://user-images.githubusercontent.com/36990542/53228827-02795f80-36b5-11e9-9e2d-2e43a7725fbf.jpg)
+
+sesuai perintah soal, backup file syslog dilakukan setiap jam. Maka kita buatkan crontab dengan aturan 0 * * * * , yang artinya script soal4.sh akan dijalankan setiap menit ke 0 untuk sembarang jam,hari,tanggal,dan bulan.
 
 # NOMOR 5
 
