@@ -49,12 +49,26 @@ jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada h
 # NOMOR 2
 ![nomer2](https://user-images.githubusercontent.com/36990542/53225061-5aaa6480-36a9-11e9-8db7-b7f6b8bcf41e.jpg)
 
+untuk mencari jawaban poin a, digunakan perintah sebagai berikut :
+awk -F , 'NR > 1 && max < $10 && $7 == "2012" { max = $1 }
+END { print max }' WA_Sales_Products_2012-14.csv
+
+untuk mencari jawaban pon b, digunakan perintah sebagai berikut :
+awk -F, '{ if($1=="United States" && $7=="2012") x[$4] += $10;} 
+END{for(i in x) print x[i]","i}' WA_Sales_Products_2012-14.csv | sort -n -r | head -n 3 | awk -F, '{print $2 , $1}'
+
+setelah disorting dengan sort -n -r , digunakan head -n 3 untuk mengambil 3 produk teratas. kemudian yang akan dicetak yaitu nama produk dan total penjualanya
+
+untuk mencari jawaban poin c, digunakan perintah sebagai berikut :
+awk -F, '{ if($1=="United States" && $7=="2012" && 
+( $4=="Personal Accessories" || $4=="Outdoor Protection" || $4=="Camping Equipment") ) x[$6] += $10;} 
+END { for(i in x) print x[i]","i}' WA_Sales_Products_2012-14.csv | sort -n -r | head -n 3 | awk -F, '{print $2 , $1}'
+
+sama seperti poin b, namun ada tambahan kondisi yaitu kita akan mengambil data dimana kolom ke-4 nya memiliki nilai "Personal Accessories" atau "Camping Equipment" atau "Outdoor Protection".
 
 
 
-
-
-NOMOR 3
+# NOMOR 3
 
 A.
 
@@ -118,11 +132,11 @@ D.
 cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
 
 
-NOMOR 4
+# NOMOR 4
 (((( MASIH KOSONG YA ))))
 
 
-NOMOR 5
+# NOMOR 5
 
 A.
 
