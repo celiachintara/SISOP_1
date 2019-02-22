@@ -57,7 +57,7 @@ untuk mencari jawaban pon b, digunakan perintah sebagai berikut :
 awk -F, '{ if($1=="United States" && $7=="2012") x[$4] += $10;} 
 END{for(i in x) print x[i]","i}' WA_Sales_Products_2012-14.csv | sort -n -r | head -n 3 | awk -F, '{print $2 , $1}'
 
-setelah disorting dengan sort -n -r , digunakan head -n 3 untuk mengambil 3 produk teratas. kemudian yang akan dicetak yaitu nama produk dan total penjualanya
+setelah disorting dengan sort -n -r , digunakan head -n 3 untuk mengambil 3 produk teratas. kemudian yang akan dicetak yaitu nama produk dan total penjualannya.
 
 untuk mencari jawaban poin c, digunakan perintah sebagai berikut :
 awk -F, '{ if($1=="United States" && $7=="2012" && 
@@ -65,6 +65,9 @@ awk -F, '{ if($1=="United States" && $7=="2012" &&
 END { for(i in x) print x[i]","i}' WA_Sales_Products_2012-14.csv | sort -n -r | head -n 3 | awk -F, '{print $2 , $1}'
 
 sama seperti poin b, namun ada tambahan kondisi yaitu kita akan mengambil data dimana kolom ke-4 nya memiliki nilai "Personal Accessories" atau "Camping Equipment" atau "Outdoor Protection".
+kemudian yang akan dicetak yaitu  nama produk dan total penjualannya.
+
+![nomer2jawaban](https://user-images.githubusercontent.com/36990542/53225580-22a42100-36ab-11e9-85ad-9b38521df142.jpg)
 
 
 
@@ -133,7 +136,26 @@ cat /dev/urandom -> perintah untuk mengambil sekumpulan karakter secara random.
 
 
 # NOMOR 4
-(((( MASIH KOSONG YA ))))
+
+![nomer4_waktu](https://user-images.githubusercontent.com/36990542/53227712-9f39fe00-36b1-11e9-9e0a-bfb6f99c11f8.jpg)
+
+perintah diatas digunakan untuk mengambil waktu(jam) , waktu(HH:MM) , dan tanggal.
+kemudian disimpan dalam file .txt sendiri-sendiri.
+setelah itu kita membuat variable dan mengakses isi file .txt tadi untuk digunakan didalam script.
+
+![nomer4_enkripsi](https://user-images.githubusercontent.com/36990542/53228370-91857800-36b3-11e9-98fd-c6f6d421a22f.jpg)
+
+Untuk enkripsi, script diatas digunakan untuk mengatur batas bawah a ke huruf lainnya dengan mengubah desimal ke ASCII, kemudian menentukan batas atas z ke huruf lainnya dengan mengubah kode ASCII menjadi desimal dan mengembalikannya ke ASCII lagi.
+
+kemudian, mengatur batas bawah A ke huruf lainnya dengan mengubah desimal menjadi ASCII, dan mengatur batas atas Z ke huruf lainnya dengan mengubahnya dari ASCII menjadi desimal dan dikembalikan lagi ke ASCII
+
+kemudian, hasil akan disimpan ke dalam sebuah file .txt dengan format penamaan sesuai waktu dan tanggal yang sudah kita peroleh dari script diatas.
+
+![nomer4_dekripsi](https://user-images.githubusercontent.com/36990542/53228667-723b1a80-36b4-11e9-837c-d69bf4abf50d.jpg)
+
+Untuk dekripsi, kita akan mengubah lagi batas bawah huruf kecil dari desimal ke ASCII, dan batas atas huruf kecil dari ASCII ke desimal dan dikembalikan lagi ke ASCII. Begitu juga untuk batas bawah dan batas atas huruf besarnya.
+
+kemudian hasil dekripsi diatas akan disimpan ke dalam sebuah file .txt dengan format penamaan menggunakan waktu dan tanggal yang kita peroleh dari script diatas serta ditambahkan kata -dekripsi sebagai pembedanya.
 
 
 # NOMOR 5
