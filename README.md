@@ -202,4 +202,4 @@ D.
 
 
 2-30/6 artinya mulai menit ke-2 sampai menit ke-30 setiap 6 menit sekali.
-* kedua sampai kelima artinya bebas di semua jam, tanggal, bulan, dan hari.
+(*) kedua sampai kelima artinya bebas di semua jam, tanggal, bulan, dan hari.
