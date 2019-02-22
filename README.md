@@ -1,6 +1,6 @@
 # SoalShift_modul1_C16
 
-NOMOR 1
+# NOMOR 1
 
 ![nomer1_bash](https://user-images.githubusercontent.com/36990542/53146700-c8865b80-35d7-11e9-94ae-8ece434cc947.jpg)
 
@@ -46,7 +46,7 @@ jika aturan cron tab telah terpenuhi, maka foto-foto tersebut akan muncul pada h
 
 
 
-NOMOR 2
+# NOMOR 2
 
 (((( MASIH KOSONG YA ))))
 
